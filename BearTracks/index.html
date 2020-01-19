@@ -1,0 +1,161 @@
+<html>
+	<head>
+		<title>BearTracks</title>
+		<!-- import the webpage stylesheet -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<!-- import the webpage font(s) -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i&display=swap" rel="stylesheet">	
+	    <!-- import the webpage javascript file -->
+		<script src="assets/js/script.js" defer></script>
+	</head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<body>
+
+		<div id="BearTracks">
+			<div class="nav">
+		  		<div id=logo><a href="#BearTracks"><img src="assets/images/logo-light.png" width="310" height="96"/></a></div>
+		  		<div id=about><a href="#About"><img src="assets/images/info-light.png" width="40" height="40"/></a></div>
+			</div>
+			<div class="home-container">
+				<div id="greeting"><h1>My major is...</h1></div>
+				<!-- search bar -->
+				<input type="text" id="myInput" onkeyup="active()" placeholder="Search" title="Search">
+				<ul id="myUL">
+				<li><a href="./african-american-studies">African American Studies</a></li>
+				<li><a href="./american-studies">American Studies</a></li>
+				<li><a href="./ancient-egyptian-near-eastern-art-archaeology">Ancient Egyptian Near Eastern Art Archaeology</a></li>
+				<li><a href="./anthropology">Anthropology</a></li>
+				<li><a href="./applied-mathematics">Applied Mathematics</a></li>
+				<li><a href="./architecture">Architecture</a></li>
+				<li><a href="./art-history">Art History</a></li>
+				<li><a href="./art-practice">Art Practice</a></li>
+				<li><a href="./asian-american-diaspora-studies">Asian American Diaspora Studies</a></li>
+				<li><a href="./asian-studies-china">Asian Studies China</a></li>
+				<li><a href="./asian-studies-japan">Asian Studies Japan</a></li>
+				<li><a href="./asian-studies-multi-area">Asian Studies Multi Area</a></li>
+				<li><a href="./astrophysics">Astrophysics</a></li>
+				<li><a href="./atmospheric-science">Atmospheric Science</a></li>
+				<li><a href="./bioengineering">Bioengineering</a></li>
+				<li><a href="./bioengineering-business-administration">Bioengineering Business Administration</a></li>
+				<li><a href="./bioengineering-materials-science-engineering-joint-major">Bioengineering Materials Science Engineering Joint Major</a></li>
+				<li><a href="./business-administration">Business Administration</a></li>
+				<li><a href="./celtic-studies">Celtic Studies</a></li>
+				<li><a href="./chemical-biology">Chemical Biology</a></li>
+				<li><a href="./chemical-engineering">Chemical Engineering</a></li>
+				<li><a href="./chemical-engineering-materials-science-joint-major">Chemical Engineering Materials Science Joint Major</a></li>
+				<li><a href="./chemical-engineering-nuclear-joint-major">Chemical Engineering Nuclear Joint Major</a></li>
+				<li><a href="./chemistry">Chemistry</a></li>
+				<li><a href="./chicano-latino-studies">Chicano Latino Studies</a></li>
+				<li><a href="./chinese-language">Chinese Language</a></li>
+				<li><a href="./civil-engineering">Civil Engineering</a></li>
+				<li><a href="./civil-engineering-business-administration">Civil Engineering Business Administration</a></li>
+				<li><a href="./classical-civilizations">Classical Civilizations</a></li>
+				<li><a href="./classical-languages">Classical Languages</a></li>
+				<li><a href="./cognitive-science">Cognitive Science</a></li>
+				<li><a href="./comparative-literature">Comparative Literature</a></li>
+				<li><a href="./computer-science">Computer Science</a></li>
+				<li><a href="./conservation-resource-studies">Conservation Resource Studies</a></li>
+				<li><a href="./czech-polish-bosnian-croatian-serbian-language-literature">Czech Polish Bosnian Croatian Serbian Language Literature</a></li>
+				<li><a href="./dance-performance-studies">Dance Performance Studies</a></li>
+				<li><a href="./data-science">Data Science</a></li>
+				<li><a href="./development-studies">Development Studies</a></li>
+				<li><a href="./dutch-studies">Dutch Studies</a></li>
+				<li><a href="./east-asian-religion-thought-culture">East Asian Religion Thought Culture</a></li>
+				<li><a href="./economics">Economics</a></li>
+				<li><a href="./ecosystem-management-forestry">Ecosystem Management Forestry</a></li>
+				<li><a href="./electrical-engineering-computer-sciences">Electrical Engineering Computer Sciences</a></li>
+				<li><a href="./electrical-engineering-computer-sciences-materials">Electrical Engineering Computer Sciences Materials</a></li>
+				<li><a href="./electrical-engineering-computer-sciences-nuclear-joint-major">Electrical Engineering Computer Sciences Nuclear Joint Major</a></li>
+				<li><a href="./energy-engineering">Energy Engineering</a></li>
+				<li><a href="./engineering-math-statistics">Engineering Math Statistics</a></li>
+				<li><a href="./engineering-physics">Engineering Physics</a></li>
+				<li><a href="./english">English</a></li>
+				<li><a href="./environmental-earth-science">Environmental Earth Science</a></li>
+				<li><a href="./environmental-economics-policy">Environmental Economics Policy</a></li>
+				<li><a href="./environmental-engineering-science">Environmental Engineering Science</a></li>
+				<li><a href="./environmental-sciences">Environmental Sciences</a></li>
+				<li><a href="./ethnic-studies">Ethnic Studies</a></li>
+				<li><a href="./film">Film</a></li>
+				<li><a href="./forestry-natural-resources">Forestry Natural Resources</a></li>
+				<li><a href="./french">French</a></li>
+				<li><a href="./gender-womens-studies">Gender Womens Studies</a></li>
+				<li><a href="./genetics-plant-biology">Genetics Plant Biology</a></li>
+				<li><a href="./geography">Geography</a></li>
+				<li><a href="./geology">Geology</a></li>
+				<li><a href="./geophysics">Geophysics</a></li>
+				<li><a href="./german">German</a></li>
+				<li><a href="./global-studies">Global Studies</a></li>
+				<li><a href="./greek">Greek</a></li>
+				<li><a href="./history">History</a></li>
+				<li><a href="./industrial-engineering-operations-research">Industrial Engineering Operations Research</a></li>
+				<li><a href="./integrative-biology">Integrative Biology</a></li>
+				<li><a href="./interdisciplinary-studies">Interdisciplinary Studies</a></li>
+				<li><a href="./italian-studies">Italian Studies</a></li>
+				<li><a href="./japanese-language">Japanese Language</a></li>
+				<li><a href="./landscape-architecture">Landscape Architecture</a></li>
+				<li><a href="./latin">Latin</a></li>
+				<li><a href="./latin-american-studies">Latin American Studies</a></li>
+				<li><a href="./legal-studies">Legal Studies</a></li>
+				<li><a href="./linguistics">Linguistics</a></li>
+				<li><a href="./marine-science">Marine Science</a></li>
+				<li><a href="./materials-science-engineering">Materials Science Engineering</a></li>
+				<li><a href="./materials-science-engineering-mechanical-joint-major">Materials Science Engineering Mechanical Joint Major</a></li>
+				<li><a href="./materials-science-engineering-nuclear-joint-major">Materials Science Engineering Nuclear Joint Major</a></li>
+				<li><a href="./mathematics">Mathematics</a></li>
+				<li><a href="./mechanical-engineering">Mechanical Engineering</a></li>
+				<li><a href="./mechanical-engineering-business-administration">Mechanical Engineering Business Administration</a></li>
+				<li><a href="./mechanical-engineering-nuclear">Mechanical Engineering Nuclear</a></li>
+				<li><a href="./media-studies">Media Studies</a></li>
+				<li><a href="./microbial-biology">Microbial Biology</a></li>
+				<li><a href="./middle-eastern-studies">Middle Eastern Studies</a></li>
+				<li><a href="./molecular-environmental-biology">Molecular Environmental Biology</a></li>
+				<li><a href="./molecular-cell-biology">Molecular Cell Biology</a></li>
+				<li><a href="./music">Music</a></li>
+				<li><a href="./native-american-studies">Native American Studies</a></li>
+				<li><a href="./near-eastern-civilizations">Near Eastern Civilizations</a></li>
+				<li><a href="./near-eastern-languages-literatures">Near Eastern Languages Literatures</a></li>
+				<li><a href="./nuclear-engineering">Nuclear Engineering</a></li>
+				<li><a href="./dietetics">Dietetics</a></li>
+				<li><a href="./physiology-and-metabolism">Physiology And Metabolism</a></li>
+				<li><a href="./nutritional-sciences-toxicology">Nutritional Sciences Toxicology</a></li>
+				<li><a href="./operations-research-management-science">Operations Research Management Science</a></li>
+				<li><a href="./peace-conflict-studies">Peace Conflict Studies</a></li>
+				<li><a href="./philosophy">Philosophy</a></li>
+				<li><a href="./physics">Physics</a></li>
+				<li><a href="./planetary-science">Planetary Science</a></li>
+				<li><a href="./political-economy">Political Economy</a></li>
+				<li><a href="./political-science">Political Science</a></li>
+				<li><a href="./premed">Premed</a></li>
+				<li><a href="./prelaw">Prelaw</a></li>
+				<li><a href="./psychology">Psychology</a></li>
+				<li><a href="./public-health">Public Health</a></li>
+				<li><a href="./rhetoric">Rhetoric</a></li>
+				<li><a href="./scandinavian">Scandinavian</a></li>
+				<li><a href="./slavic-languages-literatures">Slavic Languages Literatures</a></li>
+				<li><a href="./socialwelfare">Social Welfare</a></li>
+				<li><a href="./society-environment">Society Environment</a></li>
+				<li><a href="./sociology">Sociology</a></li>
+				<li><a href="./south-southeast-asian-studies">South Southeast Asian Studies</a></li>
+				<li><a href="./spanish-portuguese">Spanish Portuguese</a></li>
+				<li><a href="./statistics">Statistics</a></li>
+				<li><a href="./sustainable-environmental-design">Sustainable Environmental Design</a></li>
+				<li><a href="./theater-performance-studies">Theater Performance Studies</a></li>
+				<li><a href="./urban-studies">Urban Studies</a></li>
+				</ul>
+				<!-- search bar -->
+				<div id="page-separator-1"></div>
+			</div>
+		</div>
+
+		<div id="About"></div>
+			<div class="about-container">
+				<div id="about-title"><h1>About</h1></div>
+				<div id="about-paragraph"><p>BearTracks is a website developed by four UC Berkeley students who believe every student should have access to all the academic opportunities their school has to offer. This website allows students to explore course pathways, graduation requirements, and career options. It is particularly useful for students who are undeclared, as they are able to learn more about each major and its requirements. We hope that by using BearTracks, students are better equipped with the necessary tools to find subjects they're passionate about and make the most of their education.</p>
+				<div id="phrase"><p>Schedule planning simplified.</p></div></div>
+				<div id="page-separator-2"></div>
+		</div>
+
+	</body>
+</html>
