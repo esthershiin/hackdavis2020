@@ -1,3 +1,5 @@
+/* search bar */
+
 function initial() {
     var li, ul;
     ul = document.getElementById("myUL");
@@ -25,3 +27,5 @@ function active() {
         }
     }
 }
+
+/* toggle tab js in major.html */
