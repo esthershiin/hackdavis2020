@@ -16,7 +16,7 @@ Schedule planning simplified.
 
 <img width="1416" alt="Screen Shot 2020-07-31 at 2 09 58 AM" src="https://user-images.githubusercontent.com/46742484/89020273-7de03700-d2d3-11ea-9975-ce43adc5966c.png">
 
-This github contains the skeleton of the web application. 
+This repo contains only the skeleton of the web application. 
 More can be found here: https://github.com/andreabogle/BearTracks
 
 For more information: https://devpost.com/software/beartracks
