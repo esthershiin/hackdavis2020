@@ -1,5 +1,7 @@
 # hackdavis2020
 
+![paw copy-06](https://user-images.githubusercontent.com/46742484/89020520-e62f1880-d2d3-11ea-8a65-990a781c3add.png)
+
 BearTracks is a website developed by four UC Berkeley students who believe every student 
 should have access to all the academic opportunities their school has to offer. This 
 website allows students to explore course pathways, graduation requirements, and career 
@@ -10,6 +12,13 @@ about and make the most of their education.
 
 Schedule planning simplified.
 
-https://devpost.com/software/beartracks
+<img width="1403" alt="Screen Shot 2020-07-31 at 2 09 05 AM" src="https://user-images.githubusercontent.com/46742484/89020200-630dc280-d2d3-11ea-9c25-4d555aefa5d4.png">
 
-Creators: Andrea Bogle, Rohan Jhunjhunwala, Esther Shin, & Michelle Li
+<img width="1416" alt="Screen Shot 2020-07-31 at 2 09 58 AM" src="https://user-images.githubusercontent.com/46742484/89020273-7de03700-d2d3-11ea-9975-ce43adc5966c.png">
+
+This github contains the skeleton of the web application. 
+More can be found here: https://github.com/andreabogle/BearTracks
+
+For more information: https://devpost.com/software/beartracks
+
+Developers: Andrea Bogle, Rohan Jhunjhunwala, Esther Shin, & Michelle Li
