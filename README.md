@@ -16,8 +16,7 @@ Schedule planning simplified.
 
 <img width="1416" alt="Screen Shot 2020-07-31 at 2 09 58 AM" src="https://user-images.githubusercontent.com/46742484/89020273-7de03700-d2d3-11ea-9975-ce43adc5966c.png">
 
-This repo contains only the skeleton of the web application as the graphs were created on neo4j
-
+The graphs were created with Neo4j.
 For more information: https://devpost.com/software/beartracks
 
 Developers: Andrea Bogle, Rohan Jhunjhunwala, Esther Shin, & Michelle Li
