@@ -1,0 +1,44 @@
+node {
+  diameter: 2Opx;
+  color: #FFD86E;
+  border-color: #EDBA39;
+  border-width: 2px;
+  text-color-internal: #604A0E;
+  font-size: 16px;
+  /* uncomment this line if you want the "name" property to be the default caption */
+  caption: '{name}'; 
+}
+
+relationship {
+  color: #888;
+  shaft-width: 13px;
+  font-size: 14px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #000000;
+ /* caption: '<type>';*/
+}
+
+node.Group0 {
+  color: rgb(1, 93, 116);
+  border-color: rgb(1, 93, 116);
+  text-color-internal: #000000;
+}
+
+node.Group1 {
+  color: rgb(236, 210, 95);
+  border-color: rgb(236, 210, 95);
+  text-color-internal: #000000;
+}
+
+node.Group2 {
+  color: rgb(168, 236, 236);
+  border-color: rgb(168, 236, 236);
+  text-color-internal: #000000;
+}
+
+node.Group3 {
+  color: rgb(26, 6, 114);
+  border-color: rgb(26, 6, 114);
+  text-color-internal: #000000;
+}
